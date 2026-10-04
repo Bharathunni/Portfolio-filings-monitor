@@ -1,0 +1,14 @@
+{
+  "name": "Sample Investor",
+  "email": "sample.investor@example.com",
+  "sheet_csv_url": "",
+  "holdings": [
+    {"ticker": "RELIANCE", "name": "Reliance Industries Ltd", "bse_code": "500325", "qty": 40, "avg_price": 1250.00},
+    {"ticker": "HDFCBANK", "name": "HDFC Bank Ltd", "bse_code": "500180", "qty": 60, "avg_price": 1600.00},
+    {"ticker": "INFY", "name": "Infosys Ltd", "bse_code": "500209", "qty": 50, "avg_price": 1500.00},
+    {"ticker": "TCS", "name": "Tata Consultancy Services Ltd", "bse_code": "532540", "qty": 20, "avg_price": 3600.00},
+    {"ticker": "ITC", "name": "ITC Ltd", "bse_code": "500875", "qty": 200, "avg_price": 420.00},
+    {"ticker": "LT", "name": "Larsen & Toubro Ltd", "bse_code": "500510", "qty": 25, "avg_price": 3400.00},
+    {"ticker": "NIFTYBEES", "name": "Nifty 50 ETF", "bse_code": "", "qty": 300, "avg_price": 250.00, "note": "ETF - no company filings"}
+  ]
+}

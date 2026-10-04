@@ -1,0 +1,9 @@
+{
+  "name": "Friend Name",
+  "email": "friend@example.com, optional-second@example.com",
+  "sheet_csv_url": "",
+  "holdings": [
+    {"ticker": "RELIANCE", "name": "Reliance Industries Ltd", "bse_code": "500325", "qty": 10, "avg_price": 1300.00},
+    {"ticker": "SOMEETF", "name": "Some ETF", "bse_code": "", "qty": 100, "avg_price": 50.00, "note": "ETF - excluded"}
+  ]
+}

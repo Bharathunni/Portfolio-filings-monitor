@@ -1,0 +1,43 @@
+# --- Secrets: never commit ---
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+credentials*.json
+service-account*.json
+*-sa.json
+token*.json
+client_secret*.json
+
+# --- Real user portfolios: only the template and the synthetic sample are tracked ---
+portfolios/*.json
+!portfolios/_TEMPLATE.json
+!portfolios/sample.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Local run outputs ---
+digest_*.html
+*.log
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
